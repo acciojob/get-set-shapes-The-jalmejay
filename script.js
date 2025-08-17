@@ -7,7 +7,7 @@ class Rectangle {
 	get width(){
 		return this._width;
 	}
-	get heigth(){
+	get height(){
 		return this.height;
 	}
 
@@ -21,7 +21,7 @@ class Square extends Animal {
 		super(side,side)
 	}
 	getPerimeter(){
-		return (4*this.width)
+		return 4*this.width;
 	}
 }
 // Creating a Rectangle instance
